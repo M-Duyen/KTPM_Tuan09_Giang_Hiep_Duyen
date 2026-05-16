@@ -1,0 +1,23 @@
+{
+    "name":  "orchestrator-service",
+    "version":  "1.0.0",
+    "description":  "",
+    "main":  "index.js",
+    "scripts":  {
+                    "test":  "echo \"Error: no test specified\" \u0026\u0026 exit 1",
+                    "dev": "nodemon index.js"
+                },
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "dependencies":  {
+                         "axios":  "^1.16.0",
+                         "cors":  "^2.8.6",
+                         "express":  "^5.2.1"
+                     },
+    "devDependencies":  {
+                            "nodemon":  "^3.1.14"
+                        }
+}
